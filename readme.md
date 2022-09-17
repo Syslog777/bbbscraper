@@ -1,0 +1,4 @@
+- Crawler: reads from queryList.txt and sends a HTTP GET to google.com, then sends to responce to the Muncher
+- Muncher: digs for the data we are looking for and sends it to the Librarian
+- Librarian: creates, retrieves and stores company data (OSINT)
+- ColdCaller: uses the numbers that the Librarian collects to call target individuals on each company
